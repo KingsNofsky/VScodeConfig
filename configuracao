@@ -1,42 +1,55 @@
 {
-    "workbench.colorTheme": "Dracula Theme",
-    "workbench.iconTheme": "bearded-icons",
-    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 16,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Omni Dracula Theme Traditional Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.fontSize": 21,
+    
     "editor.cursorStyle": "block-outline",
-    "editor.fontLigatures": true,
+    "terminal.external.windowsExec": "D:\\Git\\bin\\bash.exe",
+    "terminal.explorerKind": "both",
+    "explorer.confirmPasteNative": false,
+    //"editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace", // "Fira Code Retina" para deixar mais brilhante a fonte
+    "editor.fontFamily": "'Fira Code iScript', Consolas, 'Courier New', monospace",
+    "editor.fontWeight": "300",
+    "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+    //"editor.fontLigatures":true,
+    "terminal.integrated.fontFamily": "Consolas",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
 
+    
     "editor.tokenColorCustomizations": {
-  "textMateRules": [
-    {
-      "scope": [
-        //following will be in italic (=FlottFlott)
-        "comment",
-        "entity.name.type.class", //class names
-        "keyword", //import, export, return…
-        "constant", //String, Number, Boolean…, this, super
-        "storage.modifier", //static keyword
-        "storage.type.class.js", //class keyword
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
-        //following will be excluded from italics (VSCode has some defaults for italics)
-        "invalid",
-        "keyword.operator",
-        "constant.numeric.css",
-        "keyword.other.unit.px.css",
-        "constant.numeric.decimal.js",
-        "constant.numeric.json"
-      ],
-      "settings": {
-        "fontStyle": ""
-      }
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, return…
+                    "constant", //String, Number, Boolean…, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type.class.js", //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
     }
-  ]
-}
-
 }
